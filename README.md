@@ -23,14 +23,10 @@ Crea un Wireframe de la página web del [TIB](https://www.tib.org/web/ctm) y haz
 
 ---
 
-**[⬆ volver arriba](#tabla-de-contenido)**
-
 ## Proyecto
 [**Estudio de usabilidad**](./Estudio_de_Usabilidad.md)
 
 ---
-
-**[⬆ volver arriba](#tabla-de-contenido)**
 
 ## Bibliografía 
 
@@ -50,5 +46,7 @@ Crea un Wireframe de la página web del [TIB](https://www.tib.org/web/ctm) y haz
 - [Mockplus](https://www.mockplus.com/blog/post/wireframe-example)
 - [Designshak](https://designshack.net/)
 - [Justinmind](https://www.justinmind.com/)
+
+---
 
 **[⬆ volver arriba](#tabla-de-contenido)**

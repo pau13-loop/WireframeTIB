@@ -2,6 +2,8 @@
 
 [**README**](./README.md)
 
+---
+
 ## Problemas encontrados y mejorables
 
 - Falta de planificación y organización espacial del contenido
@@ -120,5 +122,7 @@
 - Márgenes o paddings excesivos
     
     > Se le ha aplicado un diseño elegante a la aplicación y se ha mejorado para ocupar todo el espacio disponible de la pantalla o en caso contrario ajustarse de la forma más óptima y eficiente a pantallas de un tamaño menor
+
+---
 
 **[⬆ volver arriba](#estudio-de-usabilidad)**
