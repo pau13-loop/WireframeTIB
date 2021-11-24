@@ -1,0 +1,35 @@
+/* Styles based in a resolution of 350x500 */
+.gridPhone {
+    margin: 30px;
+    display: grid;
+    grid-template-areas: 
+    "topnav topnav topnav topnav"
+    "header  header  header  header"
+    "train  train  bus  bus"
+    "taxi  taxi  bike  bike"
+    "footer  footer  footer  footer";
+}
+
+.header {
+    grid-area: topnav;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+
+}
+
+.content {
+
+}
+
+.p {
+    font-size: 10px;
+    font-family: Open-Sans;
+}
+
+.icon {
+    font-size: 35px;
+}
