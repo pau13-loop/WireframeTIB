@@ -17,6 +17,10 @@
     align-items: center;
 }
 
+.iconHeader {
+    font-size: 35px;
+}
+
 .sectionTitle {
     grid-area: header;
     justify-self: center;
@@ -57,14 +61,24 @@
 
 .footer {
     grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerText {
+    display: flex;
+    gap: 25px;
+}
+
+.footerIcon {
+    display: flex;
+    gap: 20px;
 }
 
 
-.p {
+p {
     font-size: 10px;
     font-family: Open-Sans;
 }
 
-.icon {
-    font-size: 35px;
-}
