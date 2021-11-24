@@ -1,13 +1,13 @@
 /* Styles based in a resolution of 350x500 */
 .gridPhone {
-    margin: 30px;
     display: grid;
-    grid-template-areas: 
-    "topnav topnav topnav topnav"
-    "header  header  header  header"
-    "train  train  bus  bus"
-    "taxi  taxi  bike  bike"
-    "footer  footer  footer  footer";
+    gap: 40px;
+    margin: 30px;
+    grid-template-areas:
+        "topnav topnav topnav topnav"
+        "header  header  header  header"
+        "content content content content"
+        "footer  footer  footer  footer";
 }
 
 .header {
@@ -17,13 +17,48 @@
     align-items: center;
 }
 
+.sectionTitle {
+    grid-area: header;
+    justify-self: center;
+}
+
 .title {
-
+    width: 150px;
 }
 
-.content {
-
+.imgTitle {
+    width: 100%;
 }
+
+.sectionContent {
+    grid-area: content;
+}
+
+.contentInColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.contentInRow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxService {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    grid-area: footer;
+}
+
 
 .p {
     font-size: 10px;
