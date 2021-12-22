@@ -1,4 +1,4 @@
-# WireframeTIB
+# WireframeTIB - Proyecto INDIVIDUAL
 
 Crea un Wireframe de la página web del [TIB](https://www.tib.org/web/ctm) y haz un estilo de usabilidad sobre ello.
 
