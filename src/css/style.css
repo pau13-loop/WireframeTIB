@@ -1,5 +1,14 @@
 /* Styles based in a resolution of 350x550 */
 
+/* CONSTANTS */
+:root {
+    --white: #ffffff;
+    --clearYellow: #fffcbe;
+    --clearRed: #a03345;
+    --lightBlue: #b0d0eb;
+    --clearBlue: #7FA8C8;
+}
+
 /* GENERIC Styles */
 * {
     font-family: Open-Sans;
@@ -8,6 +17,7 @@
 body {
     min-height: 100vh;
     margin: 0px;
+    background-color: var(--clearYellow);
 }
 
 h2 {
@@ -64,6 +74,10 @@ button {
     font-size: 20px;
 }
 
+.logInIconHeader {
+    font-size: 30px;
+}
+
 .titleTextHeader {
     font-size: 8px;
 }
@@ -74,7 +88,7 @@ button {
 }
 
 .title {
-    width: 150px;
+    width: 200px;
 }
 
 .imgTitle {
@@ -101,15 +115,16 @@ button {
 .boxService {
     width: 85px;
     height: 85px;
-    background-color: grey;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    background-color: var(--clearBlue);
 }
 
 .iconService {
     font-size: 40px;
+    color: var(--clearRed);
 }
 
 .footer {
@@ -146,7 +161,7 @@ button {
 .sectionHeaderLogIn {
     grid-area: header;
     justify-self: center;
-    align-self: center;
+    align-self: end;
 }
 
 .iconHeaderLogIn {
@@ -197,7 +212,7 @@ button {
 .boxLineFinder {
     width: 53px;
     height: 53px;
-    background-color: grey;
+    background-color: var(--clearBlue);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -206,6 +221,7 @@ button {
 
 .iconLineFinder {
     font-size: 35px;
+    color: var(--clearRed);
 }
 
 /* CALENDAR */
@@ -223,6 +239,7 @@ button {
     grid-template-areas: "date event icon";
     align-items: center;
     padding: 0 10px;
+    background-color: var(--white);
 }
 
 .dateTitleCalednar {
@@ -242,10 +259,10 @@ button {
     grid-area: content;
     display: grid;
     grid-template-columns: 65px 2px auto;
-    grid-template-areas: 
-    "dateOne lineOne eventOne"
-    "dateTwo lineTwo eventTwo"
-    "dateThree lineThree eventThree";
+    grid-template-areas:
+        "dateOne lineOne eventOne"
+        "dateTwo lineTwo eventTwo"
+        "dateThree lineThree eventThree";
 }
 
 .monthAndWeek {
@@ -280,7 +297,7 @@ button {
     min-width: 2px;
 }
 
-.lineDividerCircle { 
+.lineDividerCircle {
     background-color: grey;
     width: 8px;
     max-height: 8px;
@@ -308,12 +325,12 @@ button {
 }
 
 .eventCard {
-    background-color: grey;
     border-radius: 10px;
     padding: 8px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    background-color: var(--lightBlue);
 }
 
 .eventOne {
